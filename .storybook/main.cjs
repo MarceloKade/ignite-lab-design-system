@@ -12,10 +12,13 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  viteFinal: (config, { configType }) => {
-    if (configType === "PRODUCTION") {
-      config.base = "/ignite-lab-design-system/";
-    }
-    return config;
-  },
+
+  /* ## Caso o seu repositório esteja dentro de uma pasta descomente o comando abaixo*/
+
+  // viteFinal: (config, { configType }) => {
+  //   if (configType === "PRODUCTION") {
+  //     config.base = "/nome-do-repositório/";
+  //   }
+  //   return config;
+  // },
 };
