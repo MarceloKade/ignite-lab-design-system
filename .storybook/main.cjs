@@ -15,10 +15,10 @@ module.exports = {
 
   /* ## Caso o seu repositório esteja dentro de uma pasta descomente o comando abaixo*/
 
-  // viteFinal: (config, { configType }) => {
-  //   if (configType === "PRODUCTION") {
-  //     config.base = "/nome-do-repositório/";
-  //   }
-  //   return config;
-  // },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/nome-do-repositório/";
+    }
+    return config;
+  },
 };
