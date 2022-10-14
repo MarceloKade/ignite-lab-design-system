@@ -12,7 +12,11 @@ module.exports = {
   },
   features: {
     storyStoreV7: true,
+    interactionsDebugger: true,
   },
+  staticDirs:[
+    "..public/"
+  ]
 
   /* ## Caso o seu repositório esteja dentro de uma pasta descomente o comando abaixo*/
 
